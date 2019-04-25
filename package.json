@@ -1,0 +1,45 @@
+{
+  "name": "react-component-project",
+  "version": "0.0.1",
+  "description": "react组件开发项目",
+  "main": "src/index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SherryMua/react-component-project.git"
+  },
+  "keywords": [
+    "react",
+    "组件"
+  ],
+  "author": "react组件开发项目",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SherryMua/react-component-project/issues"
+  },
+  "homepage": "https://github.com/SherryMua/react-component-project#readme",
+  "devDependencies": {
+    "@types/react": "^16.8.14",
+    "@types/react-dom": "^16.8.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.4.3",
+    "typescript": "^3.4.5",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
